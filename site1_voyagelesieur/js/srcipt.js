@@ -1,9 +1,11 @@
-const boutonPlus = document.querySelector('.js-plus');
+const btPlus = document.querySelector('.js-plus');
 
 const conteneurTransport = document.querySelector('.conteneur-transport');
 
-boutonPlus.addEventListener('click',ouvreFerme)
+btPlus.addEventListener('click',fouvreferme);
 
-function ouvreFerme(){
-    conteneurTransport.classList.toggle('conteneur-transport-invisible')
+function fouvreferme(){
+    conteneurTransport.classList.toggle('conteneur-transport-invisible');
+
+   console.log("hh");
 };
